@@ -1,0 +1,7 @@
+20 ?- consult("asd.pl").             
+true.
+
+21 ?- solution(Liar, Cheater).
+Liar = c,
+Cheater = b ;
+false.
